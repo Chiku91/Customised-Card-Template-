@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+}
+
+#cardTemplate {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+canvas {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    border: none; 
+  }
+
+.controls {
+    position: absolute;
+    bottom: 1600px;
+    right: 20px;
+    
+}
+
+.controls label {
+    margin-left: 1000px;
+    font-size: 30px;
+   
+}
+
+.controls select {
+    margin-left: 15px;
+    font-size: 30px;
+}
+
+#colorBtn {
+    font-size: 30px;
+}
+  
+.new-text {
+    position: relative;
+    bottom: 500px;
+    left: 600px;
+    font-size: 60px;
+
+  }
+
+.add-text button {
+    position: relative;
+    bottom: 800px;
+    left: 1600px;
+    font-size: 60px;
+}
+
+
+.undo-redo {
+    position: relative;
+    bottom: 1700px;
+    left: 0.5px;
+}
+
+.undo-redo button {
+    margin-right: 10px;
+    font-size: 60px;
+}
+
+#changeTextBtn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  

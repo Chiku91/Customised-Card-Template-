@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priyanshu's Interactive Wedding Card Template</title>
+    <link rel = "stylesheet" href = "style38.css">
+</head>
+<body>
+    <div class = "container">
+        <img src ="C:\Users\ASUS\Desktop\wedding card.jpg" id="cardTemplate" alt ="Wedding Card Template" style="display: none;">
+        <canvas id ="canvas"></canvas>
+        <div class = "controls">
+           <label for="fontStyleDropdown">Font Style:</label>
+            <select id="fontStyleDropdown">
+                <option value="Arial">Arial</option>
+                <option value="Times New Roman">Times New Roman</option>
+                <option value="Courier New">Courier New </option>
+                <option value="Verdana">Verdana</option>
+            </select>
+            <label for="fontSizeDropdown">Font Size:</label>
+            <select id="fontSizeDropdown">
+                <option value="16">16px</option>
+                <option value="24">24px</option>
+                <option value="32">32px</option>
+                <option value="48">48px</option>
+            </select>
+            <button id = "colorBtn">Change Color</button>
+        </div>
+        <div class ="new-text">
+            <p id ="newTextBtn">New Text</p>
+        </div>
+        <div class ="add-text">
+            <button id="addTextBtn">Add Text</button>
+        </div>
+        <div class = "undo-redo">
+            <button id="undoBtn">Undo</button>
+            <button id ="redoBtn">Redo</button>
+        </div>
+    </div>
+    <script src="script21.js"></script>
+</body>
+</html>
